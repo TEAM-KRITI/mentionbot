@@ -1,0 +1,29 @@
+{
+  "name": "Maya Mention Full Bot",
+  "description": "Maya Mention style Telegram group bot",
+  "keywords": [
+    "telegram",
+    "bot",
+    "mention",
+    "groups",
+    "games"
+  ],
+  "env": {
+    "BOT_TOKEN": {
+      "description": "BotFather token",
+      "required": true
+    },
+    "BOT_USERNAME": {
+      "description": "Bot username without @",
+      "value": "mentionmayabot"
+    },
+    "SUPPORT_URL": {
+      "description": "Support Telegram URL",
+      "value": "https://t.me/mentionmayabot"
+    },
+    "UPDATE_URL": {
+      "description": "Updates Telegram URL",
+      "value": "https://t.me/mentionmayabot"
+    }
+  }
+}
